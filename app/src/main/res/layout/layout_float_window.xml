@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="120dp"
+    android:layout_height="100dp"
+    android:background="@drawable/float_window_img">
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+            <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                android:id="@+id/btn_find_circles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="定位"
+                android:textColor="@color/deepBlue"
+                android:alpha="0.7"
+                android:textSize="15sp"
+                app:qmui_radius="5dp">
+            </com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton>
+
+            <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                android:id="@+id/btn_find_edge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/deepBlue"
+                android:text="查找"
+                android:textSize="15sp"
+                android:layout_margin="6dp"
+                app:qmui_radius="5dp"
+                android:alpha="0.7"
+                >
+
+            </com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton>
+
+            <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                android:id="@+id/btn_build_path"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/deepBlue"
+                android:layout_margin="6dp"
+                android:text="生成"
+                android:alpha="0.7"
+                android:textSize="15sp"
+                app:qmui_radius="5dp">
+
+            </com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton>
+
+
+    </LinearLayout>
+</LinearLayout>

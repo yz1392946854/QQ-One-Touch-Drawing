@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QQ一笔画解题器</string>
+    <string name="one_path">QQ一笔画红包辅助功能。若不开启，无法进行一笔画绘图</string>
+    <string name="teach_text">首先赋予应用以下权限，然后开启悬浮窗。悬浮窗共计三个按钮，打开一笔画红包界面，确保解题区无遮挡，依次点击即可。第二个按钮“查找”，耗时操作较长，且会阻塞屏幕（无法点击），此过程中请勿触碰屏幕。查找完成后会弹框提示</string>
+</resources>

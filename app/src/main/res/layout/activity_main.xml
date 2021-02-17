@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".activity.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="简易教程"
+        android:textSize="20sp">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="@string/teach_text">
+
+    </TextView>
+    <TextView
+        android:id="@+id/priority_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="需要以下权限：">
+
+    </TextView>
+    <com.qmuiteam.qmui.widget.grouplist.QMUIGroupListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/list_priority"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:id="@+id/btn_start_float"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:padding="10dp"
+            app:qmui_radius="10dp"
+            android:text="启动悬浮窗"
+            android:visibility="invisible">
+        </com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton>
+
+        <TextView
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/qmui_config_color_gray_1"
+            android:text="速度太快可能导致虚拟显示器中的View还未更新，漏读边信息。可尝试降速。\n下列三档在查找边的过程最多用时分别约为60S，90S，120S"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="速度调节"
+            android:textSize="20sp"
+            >
+        </TextView>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/radio_speed_select">
+            <RadioButton
+                android:id="@+id/radio_button_fast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="较快">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/radio_button_mid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中等">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/radio_button_low"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="慢速">
+
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+
+</LinearLayout>

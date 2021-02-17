@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml:2:1-4:12
+INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml:2:1-4:12
+INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml:2:1-4:12
+INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml:2:1-4:12
+INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml:2:1-4:12
+INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml:2:1-4:12
+INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml:2:1-4:12
+	package
+		ADDED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml:3:7-27
+		INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml
+		INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml
+		ADDED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml:2:1-4:12
+		INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml
+		ADDED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml:2:1-4:12
+		INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml
+INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml
+INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml
+INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml
+		ADDED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml
+		INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml
+		ADDED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml
+		INJECTED from E:\AndroidStudy\EulerPath\opencv\java\AndroidManifest.xml
